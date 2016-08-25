@@ -180,15 +180,14 @@
                 var hitArr=[];
                 var hit=res.result;
                 var hitData=hit.hitpoint;
-                if(hitData){
-                    hitData.push(hitArr);
+                if(hitData!=undefined){
+                    hitArr.push(hitData);
                     for(var i in hitArr){
-                        console.log(hitArr[i]);
-                        alert(hitArr[i])
+                        hitArr+=parseInt(hitArr[i]);
                     }
                 }
-                /*hitRote.text(hitArr);
-                console.log(hitArr)*/
+                hitRote.text('+'+hitArr);
+                console.log(hitArr)
 
 
 
