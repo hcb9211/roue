@@ -1,0 +1,92 @@
+body,form,input,ul,li,ol,dd,dt,span,h1,h2,h3,h4,h5,h6,p{
+    margin:0;
+    padding:0;
+    font-family: "Adobe 黑体 Std " !important;
+}
+body{
+    box-sizing:border-box!important;
+    background:#F63C1D;
+    overflow-x: hidden;
+}
+a{
+    text-decoration:none;
+}
+.red{
+    color:#FF4645;
+}
+img{
+    border:0;
+}
+ul,li{
+    list-style:none;
+}
+.clearfix:after{
+    content:"";
+    display: block;
+    clear: both;
+}
+.over-flow{
+    overflow: auto; zoom: 1;   /* zoom: 1; 是在处理兼容性问题; */
+}
+.left{
+    float:left!important;
+}
+.right{
+    float:right!important;
+}
+.center{
+    text-align: center!important;
+}
+.justify{
+    text-align: justify!important;
+}
+.text{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.paddingTop{
+    paddding-top:.2rem;
+}
+.paddingBottom{
+    padding-bottom: .2rem;
+}
+.marginTop{
+    margin-top:.1rem;
+}
+.marginBottom{
+    margin-bottom:.2rem;
+}
+.top5{
+    margin-top:.5rem;
+}
+.top2{
+    margin-top:.2rem;
+}
+
+
+
+/* swiper 轮播图 */
+.swiper-wrapper {
+
+    width: 100%;
+    height: 3rem !important;
+}
+.swiper-slide{
+    width:100% !important;
+    height:100% !important;
+    background-size:100% 100% !important;
+    background-position:center center;
+}
+/*.swiper-slide:nth-child(1){
+    background:url("../img_v3.6/b1.jpg") no-repeat 0,0;
+}
+.swiper-slide:nth-child(2){
+    background:url("../img_v3.6/b2.jpg") no-repeat 0,0;
+}
+.swiper-slide:nth-child(3){
+    background:url("../img_v3.6/b3.jpg") no-repeat 0,0;
+}
+.swiper-slide:nth-child(4){
+    background:url("../img_v3.6/b4.jpg") no-repeat 0,0;
+}*/

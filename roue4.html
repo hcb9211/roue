@@ -1,0 +1,344 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>参赛中</title>
+    <link rel="stylesheet" href="css/root.css">
+    <link rel="stylesheet" href="css/roue1.css">
+</head>
+<body>
+<header></header>
+<main>
+    <div class="rouebox">
+        <div class="roueImg">
+            <div class="ren"></div>
+            <div class="chui"></div>
+        </div>
+        <div class="roueTitle">
+            <h1>老流氓荐股</h1>
+            <ul class="roueList">
+                <li>名称</li>
+                <li>排名</li>
+                <li>荐后涨幅</li>
+            </ul>
+            <ul class="roueCon">
+                <li id="roueCon_name0">
+                    <h3>金科娱乐</h3>
+                    <span>300459.SZ</span>
+                </li>
+                <li id="roueCon_index0">- -</li>
+                <li id="roueCon_rank0">- -</li>
+            </ul>
+        </div>
+    </div>
+    <img src="img/touch.png" alt="" width="100%" class="touchBtn">
+    <div class="roueTitles" id="rankSelf">
+        <ul class="roueTop">
+            <li>排名</li>
+            <li>我的股票</li>
+            <li>收益率</li>
+        </ul>
+        <ul class="roueBottom roueTop">
+            <li id="roueCon_index">- -</li>
+            <li id="roueCon_name">
+                <h3 class="stockName"></h3>
+                <span class="stockId"></span>
+            </li>
+            <li class="" id="roueCon_rank">- -</li>
+            <div class="hitRote" style=""></div>
+        </ul>
+    </div>
+    <div class="Nodate">
+        <h1>排行榜</h1>
+    </div>
+    <div class="rankList">
+        <div class="rank" id="stockMessage">
+            <ul class="rankTitle">
+                <li class="ranks">排名</li>
+                <li class="phones">手机号码</li>
+                <li class="recommend">荐股</li>
+                <li class="rote">收益率</li>
+            </ul>
+            <template v-for="stockMessage in stockMessages">
+                <ul class="rankTitle">
+                    <li>{{$index+1}}</li>
+                    <li>{{stockMessage.sn_phone}}</li>
+                    <li>{{stockMessage.stockname}}</li>
+                    <li>{{stockMessage.sn_totle}}</li>
+                </ul>
+            </template>
+        </div>
+    </div>
+</main>
+
+<footer>
+    <div class="ruleBox">
+        <p class="center">奖金设置（人人有奖）</p>
+        <p>1.收益率超过老流氓且排名第1奖：1000元 现金，总价值1000元现金券</p>
+        <p>2.收益率超过老流氓且排名第2奖：600元现 金，总价值1000元现金券</p>
+        <p>3.收益率超过老流氓且排名第3奖：300元现 金，总价值1000元现金券</p>
+        <p>4.仅收益率超过老流氓未进前三奖：总价值 1000元现金券</p>
+        <p>5.收益率低于老流氓奖：100元现金券</p>
+    </div>
+    <a href="javascript:;" class="rules">活动细则</a>
+    <div class="rule">
+        <p class="center">比赛规则</p>
+        <p>一、活动时间：</p>
+        <p>报名时间8.17-8.21 比赛时间8.22-8.26</p>
+        <p>二、活动细则：</p>
+        <p>挑战者与股市老流氓进行为期一周的荐股收 益率大比拼。在报名阶段可自由修改选股， 比赛阶段不得更替，每日盘后公布当期排名。 比赛最终成绩为：（周五收盘价 – 周一开盘 价）/ 周一开盘价。</p>
+        <p>PS：若选股周一为一字板或周一未上市，则成绩无效。如若荐股且最终涨幅都相同，排名则按报名先后的顺序公布。</p>
+        <p class="underline">奖金在活动结束后7个工作日内派发。 本活 动解释权归股票先机所有。</p>
+        <div class="close"></div>
+    </div>
+    <div class="touch_suc">
+        <p class="center">提示</p>
+        <p>每日有1次 "敲打" 老流氓的机会,可为自己的选股额外增加0.1%-0.3%的随机上涨收益</p>
+        <div class="close"></div>
+    </div>
+</footer>
+
+<div class="mask"></div>
+</body>
+
+<script src="js/rem.js"></script>
+<script src="js/zepto.js"></script>
+<script src="js/vue.min.js"></script>
+<script src="js/roue.js"></script>
+
+<script>
+    function GetQueryString(name) {
+        var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)","i");
+        var r = window.location.search.substr(1).match(reg);
+        if (r!=null) return (r[2]); return null;
+    }
+    /* 添加用户股票名字 ID */
+    var names=$(".stockName");
+    var ids=$(".stockId");
+</script>
+
+<script>
+    /* 用户选股获取 */
+    var param={
+        "id" : 54321,
+        "jsonrpc" : "2.0",
+        "method" : "Activity.QuerySelectedStock",
+        "params": {
+            "phone":JSON.parse(GetQueryString("phone")),
+        }
+    };
+    $.ajax({
+        url:"http://app.api.gupiaoxianji.com/activity",
+        type:"POST",
+        contentType:"application/json",
+        dataType:"json",
+        data:JSON.stringify(param),
+        success:function (res) {
+            var data=res.result;
+            var id=data.stockid;
+            var name=data.stockname;
+            localStorage.message=name;
+            localStorage.id=id;
+            localStorage.message=JSON.parse(GetQueryString("phone"));
+            names.text(name);
+            ids.text(id);
+        }
+    })
+
+</script>
+
+<script>
+    /* 打击获得收益 */
+    var touch_suc=$(".touch_suc");
+    var tishi_suc=$(".tishi_suc");
+    var touch=$(".touchBtn");
+    var hitRote=$(".hitRote");
+    hitRote.text('+'+0);
+
+    touch.click(function () {
+        var param={
+            "id" : 54321,
+            "jsonrpc" : "2.0",
+            "method" : "Activity.Hit",     /* 打击获得收益  */
+            "params": {
+                "phone":JSON.parse(GetQueryString("phone")),
+            }
+        };
+
+        $.ajax({
+            url:"http://app.api.gupiaoxianji.com/activity",
+            type:"POST",
+            contentType:"application/json",
+            dataType:"json",
+            data:JSON.stringify(param),
+            success:function(res){
+                var hitArr=[];
+                var hit=res.result;
+                var hitData=hit.hitpoint;
+                if(hitData){
+                    hitData.push(hitArr);
+                    for(var i in hitArr){
+                        console.log(hitArr[i]);
+                        alert(hitArr[i])
+                    }
+                }
+                /*hitRote.text(hitArr);
+                console.log(hitArr)*/
+
+
+
+            }
+        })
+
+    })
+
+
+</script>
+
+<script>
+    /* 排行榜信息  */
+    var param={
+        "id" : 54321,
+        "jsonrpc" : "2.0",
+        "method" : "Activity.Rank",     /*排行榜信息   */
+        "params": {
+            "phone":JSON.parse(GetQueryString("phone")),
+        }
+    }
+    $.ajax({
+        url:"http://app.api.gupiaoxianji.com/activity",
+        type:"POST",
+        contentType:"application/json",
+        dataType:"json",
+        data:JSON.stringify(param),
+        success:function (res) {
+            var data=res.result.data;
+            var getPhone = GetQueryString("phone");
+            $(data).each(function (i,t) {
+
+                var userPhone=t.phone;
+                var userBaseearning=t.baseearning;
+                var userHitearning=JSON.parse(localStorage.hitData);
+                var userTotalearning=userBaseearning+userHitearning;
+
+                var phoneS=JSON.stringify(userPhone);
+                var phone=phoneS.slice(3,7);
+                var phone=phoneS.replace(phone,'****');
+
+                data[i].sn_phone = phone;
+                data[i].sn_hit=userHitearning;
+                data[i].sn_totle=(userTotalearning*100).toFixed(2)+'%';
+
+                //判断如果当前电话号码是该号码的话
+                if(getPhone == phoneS){
+
+                    $('#roueCon_name').html('<h3 class="stockName">'+ t.stockname +'</h3> <span class="stockId">'+ localStorage.id +'</span>');
+
+                    $('#roueCon_index').html(i+1);
+
+                    $('#roueCon_rank').html((userTotalearning*100).toFixed(2)+'%');
+
+                }
+
+                if(phoneS == '88888888888'){
+                    $('#roueCon_name0').html('<h3>'+ t.stockname +'</h3><span>300459.SZ</span>');
+                    $('#roueCon_index0').html(i+1);
+                    $('#roueCon_rank0').html((userTotalearning*100).toFixed(2)+'%').css({background:"#F4CB00"});
+                    data[i].sn_phone = '老流氓';
+
+                }
+            })
+            var vms=new Vue ({
+                el:"#stockMessage",
+                data:{
+                    stockMessages:data,
+                },
+            })
+        }
+    })
+</script>
+
+<script>
+    /* 点我涨收益 */
+    var chui=$(".chui");
+    var tops=heiH*.00001;
+    var lefts=winW*.07;
+
+    /* 敲打提示 */
+    var touch_suc= $(".touch_suc");
+    var hit_suc=$("#hit_suc");
+    var hitH=hit_suc.height();
+    var hit_close=$(".hit_close");
+    var rule=$(".rule");
+    var touch=$(".touchBtn");
+    touch.css({zIndex:20})
+
+
+    touch.click(function () {
+        var time=2;
+        var t=setInterval(function(){
+            time--;
+            chui.css({
+                transform:"scale(0.9,0.98)",
+                animation:"touch .3s ease infinite",
+            });
+            if(time<=0){
+                $(".chui").css({
+                    transform:"scale(0,0)",
+                    animation:"touch 0s ease infinite",
+                });
+                $(".mask").css({opacity:1,display:"block",zIndex:10});
+                $(".rules").css({zIndex:999,position:"relative",left:0,top:0});
+                $(".touch_suc").css({
+                    position:"fixed",
+                    left:0,top:'10%',
+                    opacity:1,
+                    zIndex:20
+                });
+                $("html,body").css("overflow","hidden");
+                clearInterval(t);
+            }
+        },1000)
+    })
+
+
+    hit_close.css({zIndex:999,opacity:1})
+
+
+
+    touch.click(function () {
+        var times=1;
+        var t=setInterval(function () {
+            times--;
+            if(times<=0){
+                touch_suc.css({opacity:0,zIndex:0});
+                mask.css({zIndex:0,opacity:0})
+                $("html,body").css("overflow","auto");
+                clearInterval(t)
+            }
+            hit_suc.css({
+                opacity:1,zIndex:20,
+                position:"fixed",
+                left:0,top:'10%'
+            })
+        })
+    })
+    
+    
+    mask.click(function () {
+        mask.css({opacity:0,zIndex:0});
+        touch_suc.css({opacity:0,zIndex:0});
+        rule.css({opacity:0,zIndex:0,top:0,position:'fixed',left:0});
+        $("html,body").css("overflow","auto");
+
+    })
+
+
+
+</script>
+</html>

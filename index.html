@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>报名</title>
+    <link rel="stylesheet" href="css/root.css">
+    <link rel="stylesheet" href="css/roue1.css">
+</head>
+<body>
+<header></header>
+<main>
+    <div class="rouebox">
+        <div class="roueImg">
+            <div class="ren"></div>
+            <div class="chui"></div>
+        </div>
+        <div class="roueTitle">
+            <h1>老流氓荐股</h1>
+            <ul class="roueList">
+                <li>名称</li>
+                <li>现价</li>
+                <li>荐后涨幅</li>
+            </ul>
+            <ul class="roueCon">
+                <li>
+                    <h3>
+                        <!--海康威视-->
+                        - -
+                    </h3>
+                    <span>
+                        <!--002415-->
+                        - -
+                    </span>
+                </li>
+                <li>
+                    <!--25.63-->
+                    - -
+                </li>
+                <li>
+                    <!--+8.3%-->
+                    - -
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="touch_suc"></div>
+
+    <h2 class="joinTitle">报名参赛</h2>
+
+    <div class="phoneBox phoneIndex">   <!-- 输入手机号 -->
+        <input type="tel" name="phone" placeholder="请输入参与的手机号码" pattern="/^\d{11}$/" id="getPhone" value="">
+    </div>
+
+
+    <img src="img/tiao.png" width="100%" alt="" class="tiaozhan">
+
+    <div class=" tishi region">
+        <p>请前往APP注册哦！</p>
+    </div>
+    <div class=" tishi suc_phone">
+        <p>请输入正确的手机号！</p>
+    </div>
+    <div class=" tishi suc_enter">
+        <p>报名成功</p>
+    </div>
+</main>
+<footer>
+    <div class="ruleBox">
+        <p class="center">奖金设置（人人有奖）</p>
+        <p>1.收益率超过老流氓且排名第1奖：1000元
+            现金，总价值1000元现金券</p>
+        <p>2.收益率超过老流氓且排名第2奖：600元现
+            金，总价值1000元现金券
+        </p>
+        <p>3.收益率超过老流氓且排名第3奖：300元现
+            金，总价值1000元现金券
+        </p>
+        <p>4.仅收益率超过老流氓未进前三奖：总价值
+            1000元现金券
+        </p>
+        <p>5.收益率低于老流氓奖：100元现金券
+        </p>
+        <p class="bmType">报名方式：关注“<span class="weixin">股票先机</span>”微信公众号，回复“<span class="weixin">报名+手机号码+股票名称</span>”，例如：报名+130XXXX1143+东方通，参与报名</p>
+    </div>
+    <a href="javascript:;" class="rules">活动细则</a>
+    <div class="rule">
+        <p class="center">比赛规则</p>
+        <p>一、活动时间：</p>
+        <p>报名时间8.17-8.21   比赛时间8.22-8.26  </p>
+        <p>二、活动细则：</p>
+        <p>挑战者与股市老流氓进行为期一周的荐股收
+            益率大比拼。在报名阶段可自由修改选股，
+            比赛阶段不得更替，每日盘后公布当期排名。
+            比赛最终成绩为：（周五收盘价 – 周一开盘
+            价）/ 周一开盘价。</p>
+        <p>PS：若选股周一为一字板或周一未上市，则成绩无效。如若荐股且最终涨幅都相同，排名则按报名先后的顺序公布。</p>
+        <p class="underline">奖金在活动结束后7个工作日内派发。 本活
+            动解释权归股票先机所有。
+        </p>
+        <div class="close"></div>
+    </div>
+</footer>
+
+<div class="mask"></div>
+
+
+
+</body>
+<script src="js/rem.js"></script>
+<script src="js/zepto.js"></script>
+<script src="js/vue.min.js"></script>
+<script src="js/roue.js"></script>
+<script>
+    /* 判断用户是否选股 */
+    if(localStorage.message|localStorage.id|localStorage.name){
+        location.href="roue4.html?phone="+localStorage.message;
+    }else{
+        location.href="roue5.html";
+    }
+
+    /* 参与用户 */
+    var getPhone=$("#getPhone");
+    var tiaozhan=$(".tiaozhan");
+    var width=$(window).width();
+    var height=$(window).height();
+    var top=height*.5;
+
+    tiaozhan.click(function () {
+        var phone=getPhone.val();
+        phone=phone.replace(/(^\s+)|(\s+$)/g,'');
+        //  判断手机号码是否正确
+        var myreg = /^(((13[0-9]{1})|(15[0-9]{1})|(17[0-9]{1})|(18[0-9]{1}))+\d{8})$/;
+        if(!myreg.test(phone)){
+            var suc_phone=$(".suc_phone");
+            suc_phone.css({
+                opacity:1,
+                transform:"scale(2,2)",
+                position:"fixed",
+                left:0,
+                top:top,
+            })
+            var time=1;
+            var t=setInterval(function () {
+                time--;
+                if(time<=0){
+                    suc_phone.css({
+                        opacity:0,
+                        transform:"scale(0,0)"
+                    })
+                    clearInterval(t);
+                }
+            },2000)
+        }else{
+            var param={
+                "id" : 54321,
+                "jsonrpc" : "2.0",
+                "method" : "User.CheckRegist",
+                "params" : {
+                    "userid" : phone
+                }
+            };
+            $.ajax({
+                url: "http://app.api.gupiaoxianji.com/v3.5.3",
+                type: "POST",
+                contentType: "application/json",
+                dataType: "json",
+                data: JSON.stringify(param),
+                success:function (res) {
+                    var len=JSON.stringify(res).length;
+                    if(len==80){
+                        var region=$(".region");
+                        region.css({
+                            opacity:1,
+                            transform:"scale(2,2)",
+                            position:"fixed",
+                            left:0,
+                            top:top,
+                        })
+                        var time=1;
+                        var t=setInterval(function () {
+                            time--;
+                            if(time<=0){
+                                region.css({
+                                    opacity:0,
+                                    transform:"scale(0,0)"
+                                })
+                                clearInterval(t);
+                            }
+                        },2000)
+                    }else if(len==40){
+                        var enter=$(".suc_enter");
+                        enter.css({
+                            opacity:1,
+                            transform:"scale(2,2)",
+                            position:"fixed",
+                            left:0,
+                            top:top,
+                        })
+                        var time=1;
+                        var t=setInterval(function () {
+                            time--;
+                            if(time<=0){
+                                enter.css({
+                                    opacity:0,
+                                    transform:"scale(0,0)"
+                                })
+                                clearInterval(t);
+                            }
+                            location.href="roue4.html?phone="+phone;
+                            localStorage.message=phone;
+                        },2000)
+
+                    }
+                }
+            })
+        }
+    })
+
+    /* 遮罩 */
+    var width=$("html").width();
+    var height=$("html").height();
+    var mask=$(".mask");
+    mask.width(width);
+    mask.height(height);
+
+</script>
+
+
+</html>
