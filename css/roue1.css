@@ -1,0 +1,434 @@
+header {
+    width: 100%;
+    height:6rem;
+    background:url("../img/bg1.png") no-repeat 0 0;
+    background-size:cover;
+}
+main{
+    width:100%;height:auto;
+    padding:0 .35rem;
+    box-sizing:border-box;
+}
+.rouebox{
+    width:100%;height:3.98rem;
+    background:#F4CB00;
+    border:4px solid #000;
+}
+.roueImg{
+   width:100%;height:1.95rem;
+    position:relative;
+
+}
+.ren{
+    width:3.4rem;height:4rem;
+    background:url("../img/roueImg2.png") no-repeat 0 0;
+    background-size:contain;
+    position:absolute;
+    left:0;top:0;right:0;bottom:2rem;
+    margin:auto;
+}
+.roueTitle{
+    width:100%;height:2rem;
+}
+.roueTitle h1{
+    height:.66rem;
+    line-height:.66rem;
+    text-align:center;
+    font-size:.3rem;
+}
+.roueTitle .roueList{
+    width:100%;height:.44rem;
+    background:#000;
+}
+.roueList li{
+    width:33.33%;height:100%;
+    text-align:center;
+    line-height:.44rem;
+    color:white;
+    font-size:.18rem;
+    float:left;
+}
+.roueCon{
+    width:100%;height:.9rem;
+}
+.roueCon li{
+    width:33.33%;height:100%;
+    line-height:.9rem;
+    text-align:center;
+    float:left;
+    font-size:.2rem;
+}
+.roueCon li:first-child{
+    line-height:.3rem;
+    margin-top:.2rem;font-size:.2rem;
+
+}
+.roueCon li span{
+    font-weight:bold;
+}
+.roueCon li:nth-child(2){
+    font-weight:bold;
+}
+.roueCon li:last-child{
+    color:#F63C1D;
+    font-weight:bold;
+}
+.touch{
+    width:100%;height:1.6rem;
+    box-sizing:border-box;
+    padding-top:.32rem;
+    z-index:1000;
+    position:relative;
+    left:0;top:0;
+}
+.touchBtn{
+    width:4.92rem;height:1.35rem;
+    background:url("../img/touch.png") no-repeat 0 0;
+    background-size:contain;
+    box-sizing:border-box;
+    margin:0 auto;
+}
+.joinTitle{
+    width:100%;height:.65rem;
+    font-size:.3rem;
+    line-height:.65rem;
+    text-align:center;
+    color:white;
+}
+.phoneBox{
+    height:1.8rem;
+    line-height:1.8rem;
+    background:#C82C12;
+    border-radius:10px;
+    padding:.45rem .25rem;
+    box-sizing:border-box;
+    margin-bottom:.2rem;
+}
+.phoneBox input{
+    width:100%;height:100%;
+    font-size:.3rem;
+    text-align:center;
+    line-height:1rem;
+    border:0;
+    border-radius:10px;
+    outline:none;
+    background:white;
+    display:block;
+    color:#333;
+    /*box-sizing:border-box;*/
+}
+.enterBox{
+    width:100%;height:1.43rem;
+}
+.enter{
+    width:4.91rem;
+    height:1.17rem;
+    margin:.28rem auto;
+    background:url("../img/tiao.png") no-repeat 0 0;
+    background-size:contain;
+}
+.enter_1{
+    /*width:100%;height:100%;*/
+    background:url("../img/enter.png") no-repeat 0 0;
+    background-size:contain;
+
+}
+.update{
+    /*width:100% !important;height:100% !important;*/
+    background:url("../img/update.png") no-repeat 0 0;
+    background-size:contain;
+}
+footer{
+    width:100%;height:auto;
+    padding:0 .35rem;
+    box-sizing:border-box;
+    position:relative;
+}
+.ruleBox{
+    width:100%;height:5.03rem;
+    background:#C82C12;
+    border-radius:10px;
+    padding:.3rem .3rem;
+    box-sizing:border-box;
+}
+.ruleBox p{
+    width:100%;height:auto;
+    font-size:.2rem;
+    color:white;
+    text-align:left;
+    margin-bottom:.2rem;
+}
+.rules{
+    font-size:.24rem;
+    text-decoration: underline;
+    color:white;
+    display:block;
+    margin-top:.1rem;
+    margin-left:.1rem;
+}
+.mask{
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,0.6);
+    position:absolute;
+    left:0;top:0;
+    transition:all .5s ease;
+    opacity:0;
+    /*  z-index: 999;
+      padding:0 .35rem!important;
+      box-sizing:border-box!important;*/
+}
+.rule{
+    width:90%;height:5rem;
+    background:white;
+    position:absolute;
+    left:0;top:0;right:0;bottom:0;
+    margin:auto;
+    padding:.3rem .3rem;
+    box-sizing:border-box;
+    opacity:0;
+    transition:all 1s ease;
+    z-index:9999;
+}
+.rule p{
+    font-size:.2rem;
+    text-align:left;
+    margin-bottom:.2rem;
+}
+.underline{
+    text-decoration: underline;
+}
+.close{
+    width:.45rem;height:.45rem;
+    background:url("../img/close.png") no-repeat 0 0;
+    background-size:contain;
+    position:absolute;
+    right:-.22rem;top:-.22rem;
+}
+.Nodate{
+    height:.72rem;
+    line-height:.72rem;
+    text-align:center;
+    color:white;
+    font-size:.2rem;
+}
+.rankList{
+    height:4.2rem;
+    background:#C82C12;
+    padding:.3rem .2rem;
+    margin-bottom:.4rem;
+    border-radius:10px;
+}
+.rank{
+    width:5.3rem;height:4.2rem;
+    border:1px solid white;
+    box-sizing:border-box;
+    border-bottom:0;
+}
+.rankTitle{
+    width:100%;height:.38rem;
+}
+.rankRoue{
+    background:#EDC100;
+}
+.rankTitle li{
+    width:15%;height:100%;
+    border-right:1px solid white;
+    border-bottom:1px solid white;
+    text-align:center;
+    line-height:.38rem;
+    font-size:.18rem;
+    float:left;
+    box-sizing:border-box;
+    color:white;
+}
+.rankTitle li:nth-child(2){
+    width:40%;
+}
+.rankTitle li:nth-child(3){
+    width:30%;
+}
+.rankTitle li:nth-child(4){
+    width:15%;
+    border-right:0;
+}
+
+.roueTitles{
+    height:1.92rem;
+    border:4px solid #000;
+    border-radius:10px;
+    margin-top:.2rem;
+    background:#F4CB00;
+}
+.roueTop{
+    height:.7rem;
+    background:#000;
+}
+.roueTop li{
+    width:20%;
+    height:100%;
+    float:left;
+    color:white;
+    text-align:center;
+    line-height:.7rem;
+    font-size:.2rem;
+}
+.roueTop li:nth-child(2){
+    width:50%;
+}
+.roueTop li:last-child{
+    width:30%;
+}
+.roueBottom{
+    height:1.22rem;
+    background:#F4CB00;
+}
+.roueBottom li{
+    line-height:1.22rem;
+    font-weight:bold;
+    color:#000;
+}
+.roueBottom li:nth-child(2){
+    line-height:.3rem;
+    margin-top:.3rem;
+    height:.9rem;
+}
+.red{
+    color:#F63C1D!important;
+}
+
+.chui{
+    width:1.8rem;height:1.96rem;
+    position:absolute;
+    right:1.9rem;top:-1rem;
+    background:url("../img/chui.png") no-repeat 0 0;
+    background-size:contain;
+    transition:all .5s ease;
+    transform:scale(0,0);
+    transform-origin: bottom;
+}
+@-webkit-keyframes touch {
+    0%{
+        transform:rotate(0deg);
+    }
+    100%{
+        transform:rotate(50deg);
+    }
+}
+.touch_suc{
+    width:5.6rem;height:7.7rem;
+    background:url("../img/touch_suc1.png") no-repeat 0 0;
+    background-size:contain;
+    position:absolute;
+    left:0;top:0;right:0;bottom:0;
+    margin:auto;
+    opacity:0;
+    transition:all 1s ease;
+    z-index:99999;
+}
+#searchStock{
+    position:relative;
+}
+#searchStock ul{
+    max-height:5rem;
+    overflow:auto;
+    /*display:none;*/
+}
+#searchStock .li{
+    border:1px solid #fff;
+    height:.3rem;
+    text-align:center;
+    line-height:.3rem;
+    font-size:.16rem;
+    color:white;
+}
+#searchStock .li:first-child:before, #searchStock .li:first-child:after{
+    position:absolute;
+    content: '';
+    left:0;
+    width:100%;
+    height:1px;
+}
+#searchStock .li:first-child:before{
+    top:0;
+    border-top:1px solid #fff;
+}
+#searchStock .li:first-child:after{
+    bottom:0;
+    border-bottom:1px solid #fff;
+}
+#searchStock li span{
+    width:33.33%;height:.3rem;
+    display:block;
+    float:left;
+}
+.notice,.tishi{
+    width:3rem;
+    height:1.5rem;
+    background:#F63C1D;
+    position:absolute;
+    left:0;top:0;right:0;bottom:0;
+    margin:auto;
+    transition:all 1s ease;
+    transform:scale(0,0);
+    opacity:0;
+    padding:.2rem .2rem;
+    box-sizing:border-box;
+    font-size:.12rem;
+    border-radius:.1rem;
+    z-index:999999;
+}
+.notice p{
+    width:100%;
+    max-height:1.2rem;
+    color:white;
+    /*font-size:.12rem;*/
+    display:block;
+    text-align:center;
+    margin-bottom:.2rem;
+}
+.notice .btn{
+    width:100%;height:.3rem;
+    padding:0 .3rem;
+    box-sizing:border-box;
+}
+.btn a{
+    display:block;
+    width:.3rem;height:.2rem;
+    background:#fff;
+    color:#000;
+    font-size:.12rem;
+    text-align:center;
+    line-height:.2rem;
+}
+.tishi p{
+    text-align:center;
+    line-height:1.1rem;
+    font-size:.16rem;
+    color:white;
+}
+
+.logobox{
+    width:100%;height:5rem;
+    margin-bottom:2rem;
+}
+.logo{
+    width:5rem;height:5rem;
+    background:url("../img/logo.png") no-repeat 0 0;
+    background-size:contain;
+    margin:0 auto;
+}
+.bindphone .container{
+    padding:3rem 1rem;
+}
+.title{
+    width:100%;height:2rem;
+    display:block;
+
+}
+.decr{
+    width:100%;height:3rem;
+    display:block;
+    text-align:center;
+    line-height:3rem;
+}
