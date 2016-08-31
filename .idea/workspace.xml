@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="997ed8c1-b534-4c8d-a127-313f9545c9b5" name="默认的" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bindphone.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/bindphone.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/global.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/arrow_down.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/login_icon_lock.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/login_kuang@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/login_yes@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/poplayer_bindaccount.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/roueImg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/touch.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/touch1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/touch_suc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/touch_suc1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/wx_icon_code.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/wx_icon_phone.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/base64.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/bindphone.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/global.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/md5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/regist.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/sea.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/sha1.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/touch.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/roue4.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/root.css" afterPath="$PROJECT_DIR$/css/root.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/roue1.css" afterPath="$PROJECT_DIR$/css/roue1.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/rem.js" afterPath="$PROJECT_DIR$/js/rem.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/roue.js" afterPath="$PROJECT_DIR$/js/roue.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/roue2.html" afterPath="$PROJECT_DIR$/roue2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/roue3.html" afterPath="$PROJECT_DIR$/roue3.html" />
+    </list>
+    <ignored path="roue.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="roue" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="528">
+              <caret line="0" column="3313" selection-start-line="0" selection-start-column="3313" selection-end-line="0" selection-end-column="3313" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="roue2.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/roue2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="3639" selection-start-line="0" selection-start-column="3639" selection-end-line="0" selection-end-column="3639" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="roue3.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/roue3.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="4729" selection-start-line="0" selection-start-column="4729" selection-end-line="0" selection-end-column="4729" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="roue1.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/roue1.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="310">
+              <caret line="72" column="50" selection-start-line="72" selection-start-column="50" selection-end-line="72" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/example.html" />
+        <option value="$PROJECT_DIR$/../test/root/js/rem.js" />
+        <option value="$PROJECT_DIR$/css/roue2.css" />
+        <option value="$PROJECT_DIR$/../股票先机/gpxj-go.jmx" />
+        <option value="$PROJECT_DIR$/js/touch.js" />
+        <option value="D:/My Desktop/work/Myweb/todolist/index.html" />
+        <option value="$PROJECT_DIR$/search.html" />
+        <option value="$PROJECT_DIR$/1.html" />
+        <option value="$PROJECT_DIR$/../roue2.html" />
+        <option value="$PROJECT_DIR$/111/roue2.html" />
+        <option value="$PROJECT_DIR$/js/md5.js" />
+        <option value="$PROJECT_DIR$/js/sha1.js" />
+        <option value="$PROJECT_DIR$/js/base64.js" />
+        <option value="$PROJECT_DIR$/js/regist.js" />
+        <option value="$PROJECT_DIR$/roue1.html" />
+        <option value="$PROJECT_DIR$/roue4.html" />
+        <option value="$PROJECT_DIR$/js/bindphone.js" />
+        <option value="$PROJECT_DIR$/js/roue.js" />
+        <option value="$PROJECT_DIR$/bindphone.html" />
+        <option value="$PROJECT_DIR$/css/root.css" />
+        <option value="$PROJECT_DIR$/js/rem.js" />
+        <option value="$PROJECT_DIR$/ipAdress.html" />
+        <option value="$PROJECT_DIR$/../roue-All/index.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/roue2.html" />
+        <option value="$PROJECT_DIR$/roue3.html" />
+        <option value="$PROJECT_DIR$/css/roue1.css" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1932" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <OptionsSetting value="true" id="添加" />
+    <OptionsSetting value="true" id="移除" />
+    <OptionsSetting value="true" id="签出" />
+    <OptionsSetting value="true" id="更新" />
+    <OptionsSetting value="true" id="状态" />
+    <OptionsSetting value="true" id="编辑" />
+    <ConfirmationsSetting value="0" id="添加" />
+    <ConfirmationsSetting value="0" id="移除" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="roue1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="roue1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="roue1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="roue1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="roue1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js-jscs-nodeInterpreter" value="D:\nodejs\node.exe" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\roue\js" />
+      <recent name="C:\Users\Administrator\Desktop\roue\css" />
+      <recent name="C:\Users\Administrator\Desktop\roue\111" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\roue\img" />
+      <recent name="C:\Users\Administrator\Desktop\roue\js" />
+      <recent name="C:\Users\Administrator\Desktop\roue\css" />
+      <recent name="C:\Users\Administrator\Desktop\roue" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="997ed8c1-b534-4c8d-a127-313f9545c9b5" name="默认的" comment="" />
+      <created>1471248867325</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1471248867325</updated>
+      <workItem from="1471248868882" duration="7916000" />
+      <workItem from="1471310955530" duration="24428000" />
+      <workItem from="1471347688730" duration="6394000" />
+      <workItem from="1471362771045" duration="86000" />
+      <workItem from="1471399878616" duration="20550000" />
+      <workItem from="1471427471130" duration="8527000" />
+      <workItem from="1471483205499" duration="27743000" />
+      <workItem from="1471517056471" duration="33383000" />
+      <workItem from="1471569262611" duration="17363000" />
+      <workItem from="1472535219796" duration="77000" />
+      <workItem from="1472536035275" duration="14378000" />
+      <workItem from="1472552811880" duration="1220000" />
+      <workItem from="1472608403625" duration="1138000" />
+      <workItem from="1472623413546" duration="202000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="163405000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1932" height="1056" extended-state="1" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14202745" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.49702382" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5029762" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.49702382" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="找到" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="5" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/js/angular.min.js" />
+    <entry file="file://$PROJECT_DIR$/search.html" />
+    <entry file="file://$PROJECT_DIR$/../test/banner.html" />
+    <entry file="file://$PROJECT_DIR$/1.html" />
+    <entry file="file://$PROJECT_DIR$/../test/vue.html" />
+    <entry file="file://$PROJECT_DIR$/../test/search/qing.html" />
+    <entry file="file://D:/My Desktop/work/Myweb/todolist/index.html" />
+    <entry file="file://D:/My Desktop/work/Myweb/todolist/js/todolist.js" />
+    <entry file="file://$PROJECT_DIR$/../roue1.css" />
+    <entry file="file://$PROJECT_DIR$/111/roue1.css" />
+    <entry file="file://$PROJECT_DIR$/../roue2.html" />
+    <entry file="file://$PROJECT_DIR$/111/roue2.html" />
+    <entry file="file://$PROJECT_DIR$/img/chui.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/ju.png" />
+    <entry file="file://$PROJECT_DIR$/img/bg1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/enter.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/tiao.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/touch.png" />
+    <entry file="file://$PROJECT_DIR$/img/touch1.png" />
+    <entry file="file://$PROJECT_DIR$/img/touch_suc.png" />
+    <entry file="file://D:/wamp/www/ajax-kuayu/ajax.html" />
+    <entry file="file://$PROJECT_DIR$/img/update.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/bindphone.css" />
+    <entry file="file://$PROJECT_DIR$/css/global.css" />
+    <entry file="file://$PROJECT_DIR$/js/md5.js" />
+    <entry file="file://$PROJECT_DIR$/js/base64.js" />
+    <entry file="file://$PROJECT_DIR$/js/sha1.js" />
+    <entry file="file://$PROJECT_DIR$/../股票先机/gzh/nxb/web/source/js/libs/sea.js" />
+    <entry file="file://$PROJECT_DIR$/js/sea.js" />
+    <entry file="file://$PROJECT_DIR$/../股票先机/gzh/nxb/web/source/js/libs/touch.js" />
+    <entry file="file://$PROJECT_DIR$/../股票先机/gzh/nxb/web/res/js/libs/sea.js" />
+    <entry file="file://$PROJECT_DIR$/../股票先机/gzh/nxb/web/res/js/register/bindphone.js" />
+    <entry file="file://$PROJECT_DIR$/../股票先机/gzh/nxb/web/source/js/register/bindphone.js" />
+    <entry file="file://$PROJECT_DIR$/js/global.js" />
+    <entry file="file://$PROJECT_DIR$/js/regist.js" />
+    <entry file="file://$PROJECT_DIR$/roue5.html" />
+    <entry file="file://$PROJECT_DIR$/../newroue/js/rem.js" />
+    <entry file="file://$PROJECT_DIR$/roue4.html" />
+    <entry file="file://$PROJECT_DIR$/bindphone.html" />
+    <entry file="file://$PROJECT_DIR$/js/bindphone.js" />
+    <entry file="file://$PROJECT_DIR$/js/roue.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+          <folding>
+            <element signature="e#1161#2587#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/vue.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/rem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="0" column="225" selection-start-line="0" selection-start-column="225" selection-end-line="0" selection-end-column="225" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/root.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/zepto.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2976">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ipAdress.html" />
+    <entry file="file://$PROJECT_DIR$/../roue-All/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="121" column="5" selection-start-line="121" selection-start-column="5" selection-end-line="121" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/roue3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="4729" selection-start-line="0" selection-start-column="4729" selection-end-line="0" selection-end-column="4729" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/roue1.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="72" column="50" selection-start-line="72" selection-start-column="50" selection-end-line="72" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/roue2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="3639" selection-start-line="0" selection-start-column="3639" selection-end-line="0" selection-end-column="3639" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="0" column="3313" selection-start-line="0" selection-start-column="3313" selection-end-line="0" selection-end-column="3313" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,10 +1,1 @@
-var fontsize=100;
-var width=640;
-function rem(){
-    var winW=document.documentElement.clientWidth;
-    var bili=winW/width<1?winW/width:1;
-    var newFontSize=bili*fontsize;
-    document.documentElement.style.fontSize=newFontSize+"px";
-}
-rem();
-window.onresize=rem;
+function rem(){var fontsize=100;var width=320;var winW=document.documentElement.clientWidth;var bili=winW/width;var newFontSize=bili*fontsize;document.documentElement.style.fontSize=newFontSize+"px"}rem();window.onresize=rem;
