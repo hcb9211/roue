@@ -1,0 +1,12 @@
+1, 先说说什么是nodejs?
+	简单的说 Node.js 就是运行在[服务端]的 JavaScript。
+
+	Node.js 是一个基于Chrome JavaScript 运行时建立的一个平台。
+
+	Node.js是一个事件驱动I/O服务端JavaScript环境，基于Google的V8引擎，[V8引擎执行Javascript的速度非常快，性能非常好。]
+2, 谁最适合学习nodejs?
+	如果你是一名前端程序员,不太懂 php,Python,ruby等一些动态编程语言,但是你又需要创建自己的服务,那么nodejs将是你的最好选择.
+3, 如何安装nodejs?
+	相比各位都已经成功安装好nodejs,没有的话可以进入http://jingyan.baidu.com/article/2d5afd69e243cc85a2e28efa.html访问.
+4, nodejs分为两大块:模块和包.--> npm是nodejs里最重要的一个包管理器
+接下来进入http://www.runoob.com/nodejs/nodejs-http-server.html开始我们的学习
